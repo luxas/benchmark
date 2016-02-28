@@ -1,0 +1,32 @@
+{
+	"overall": "6219",
+	"cpu": "4502",
+	"ram": "10980",
+	"real": "3175",
+	"subPerf": {
+		"floatingPoint_whetstone": "1460",
+		"integerPerf_dhrystone": "2129",
+		"linearAlgebraSinglePoint_linpack": "5319",
+		"linearAlgebraDoublePoint_linpack": "10321",
+		"kernelDoublePrecision_liverloops": "3285",
+		"L1CacheMFLOPS_l1flops": "7333",
+		"L2CacheMFLOPS_l2flops": "18657",
+		"RAMCacheSpeed_ramflops": "17644",
+		"RAMMIPS_rammips": "9810",
+		"wordReadingBusSpeed_busspeed": "1457",
+		"compileTimeAllBenchmarks": "3175"
+	},
+	"rawData": {
+		"floatingPoint_whetstone": "3418",
+		"integerPerf_dhrystone": "18445",
+		"linearAlgebraSinglePoint_linpack": "3032",
+		"linearAlgebraDoublePoint_linpack": "4335",
+		"kernelDoublePrecision_liverloops": "2004",
+		"L1CacheMFLOPS_l1flops": "6820",
+		"L2CacheMFLOPS_l2flops": "7090",
+		"RAMCacheSpeed_ramflops": "3176",
+		"RAMMIPS_rammips": "13146",
+		"wordReadingBusSpeed_busspeed": "9958",
+		"compileTimeAllBenchmarks": "4"
+	}
+}
