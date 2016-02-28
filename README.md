@@ -27,7 +27,7 @@ For amd64:
 $ make ARCH=amd64
 ```
 
-For arm:
+For arm, from an amd64 host:
 ```console
 $ make ARCH=arm
 ```
@@ -72,12 +72,14 @@ Example output for Raspberry Pi 2:
 }
 ```
 
-`overall` is the average value of `cpu`, `ram` and `real`
-`cpu` is the average value of `floatingPoint_whetstone`, `integerPerf_dhrystone`, `linearAlgebraSinglePoint_linpack`, `linearAlgebraDoublePoint_linpack` and `kernelDoublePrecision_liverloops`
-`ram` is the average value of `L1CacheMFLOPS_l1flops`, `L2CacheMFLOPS_l2flops`, `RAMCacheSpeed_ramflops`, `RAMMIPS_rammips` and `wordReadingBusSpeed_busspeed`
-`real` is the value of `compileTimeAllBenchmarks`
+Some notes:
+ - `overall` is the average value of `cpu`, `ram` and `real`
+ - `cpu` is the average value of `floatingPoint_whetstone`, `integerPerf_dhrystone`, `linearAlgebraSinglePoint_linpack`, `linearAlgebraDoublePoint_linpack` and `kernelDoublePrecision_liverloops`
+ - `ram` is the average value of `L1CacheMFLOPS_l1flops`, `L2CacheMFLOPS_l2flops`, `RAMCacheSpeed_ramflops`, `RAMMIPS_rammips` and `wordReadingBusSpeed_busspeed`
+ - `real` is the value of `compileTimeAllBenchmarks`
+ - `subPerf` is calculated values of how much better the machine did score compared to a RPi 1 Model B.
+ - `rawData` is the (sometimes calculated) raw output from Roy Longbottom benchmarks. Except for `compileTimeAllBenchmarks`, which represents how many seconds it took for the machine to compile the source code into binary files.
 
-`rawData` is the (sometimes calculated) output from Roy Longbottom benchmarks. Except for `compileTimeAllBenchmarks`, which represents how many seconds it took for the machine to compile the source code into binary files.
 
 
 ## Contribute
