@@ -80,8 +80,6 @@ Some notes:
  - `subPerf` is calculated values of how much better the machine did score compared to a RPi 1 Model B.
  - `rawData` is the (sometimes calculated) raw output from Roy Longbottom benchmarks. Except for `compileTimeAllBenchmarks`, which represents how many seconds it took for the machine to compile the source code into binary files.
 
-
-
 ## Contribute
 
 If you like more precise benchmarks and like the idea of running the same benchmarks on ARM, amd64 and other architectures, feel free to create issues and pull requests.
